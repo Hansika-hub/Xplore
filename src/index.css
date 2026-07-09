@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #1E1B4B;      /* deep indigo — main brand */
+  --color-primary-light: #4338CA;
+  --color-zone-r: #B45309;       /* amber — Realistic zone */
+  --color-zone-i: #1D4ED8;       /* blue — Investigative zone */
+  --color-zone-a: #6D28D9;       /* purple — Artistic zone */
+  --color-zone-s: #065F46;       /* emerald — Social zone */
+  --color-zone-e: #B91C1C;       /* red — Enterprising zone */
+  --color-zone-c: #0E7490;       /* cyan — Conventional zone */
+  --color-surface: #F5F3FF;      /* lavender white — background */
+  --color-card: #FFFFFF;
+  --color-text: #1E1B4B;
+  --color-text-muted: #6B7280;
+  --color-gold: #F59E0B;         /* XP/reward color */
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: var(--color-surface);
+    color: var(--color-text);
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary-light);
+  }
+}
