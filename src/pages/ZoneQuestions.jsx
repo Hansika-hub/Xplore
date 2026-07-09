@@ -325,7 +325,7 @@ const ZoneQuestions = () => {
           <div 
             className="h-full transition-all duration-300"
             style={{ 
-              width: `${((currentQIndex + 1) / totalSteps) * 100}%`,
+              width: `${((currentQIndex + 1) / questions.length) * 100}%`,
               backgroundColor: zone.hex
             }}
           />
