@@ -41,6 +41,7 @@ Xplore is primarily designed for:
 | html2canvas | HTML-to-image rendering |
 | jsPDF | PDF generation |
 
-## Live website
+## 🌐 Live Demo
+Explore Xplore here:
 
-https://xplorecareerguidance.vercel.app
+[Xplore - Live application](https://xplorecareerguidance.vercel.app)
