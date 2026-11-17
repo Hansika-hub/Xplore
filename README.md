@@ -1,16 +1,42 @@
-# React + Vite
+# 🌍 Xplore – Career Guidance Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**Your Dream Career Shouldn't Depend on Your PIN Code.**
 
-Currently, two official plugins are available:
+## 🚀 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Xplore is an AI-powered career guidance platform designed to make career exploration accessible to students, particularly those from rural and underserved communities.
 
-## React Compiler
+It aims to help students discover career opportunities based on their interests, strengths, skills, and aspirations rather than limiting their choices to conventional career paths.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+From exploring career options to understanding the skills, subjects, courses, and opportunities required to pursue them, Xplore provides students with a starting point for making informed career decisions.
 
-## Expanding the Oxlint configuration
+## ✨ Key Objectives
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- **Personalized Career Exploration:** Help students discover career paths aligned with their interests, strengths, and aspirations.
+- **Career Awareness:** Introduce students to diverse career opportunities beyond conventional academic and professional choices.
+- **Educational Guidance:** Provide insights into relevant academic streams and subjects to pursue after Grade 10.
+- **Skill Development:** Highlight the skills and competencies required for different career paths.
+- **Learning Resources:** Connect students with relevant free courses and learning opportunities.
+- **Career Insights:** Explore information about salaries, professional opportunities, and career progression.
+- **Equal Access to Guidance:** Make career exploration more accessible to students regardless of their geographical location or background.
+
+## 🎯 Target Audience
+
+Xplore is primarily designed for:
+- Students in Grades 9–12.
+- Students uncertain about their future career paths.
+- Students from rural and underserved communities.
+- Learners looking to explore emerging and unconventional career opportunities.
+
+## 🛠️ Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| React 18 | Frontend development |
+| Vite | Development server and build tool |
+| JavaScript | Application logic |
+| Tailwind CSS | Styling and responsive UI |
+| React Router DOM | Client-side navigation |
+| Framer Motion | UI animations |
+| html2canvas | HTML-to-image rendering |
+| jsPDF | PDF generation |
